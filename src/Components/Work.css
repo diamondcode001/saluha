@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.container_wrapper{
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+
+}

@@ -1,0 +1,46 @@
+.container{
+    color: tomato;
+    font-weight: bold;
+    height: 100vh;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_1{
+    width:100% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: turquoise;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: all 350ms;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.input{
+    margin-bottom: 100px;
+    width: 300px;
+}
+
+.inputButton{
+    width: 70%;
+    margin-bottom: 10px;
+
+}
